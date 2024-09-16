@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f8f3fc; /* Fondo rosado claro */
     margin: 0;
     padding: 0;
 }
 
 .container {
-    max-width: 500px;
+    max-width: 800px;
     margin: 50px auto;
     background-color: #fff;
     padding: 20px;
@@ -16,6 +16,7 @@ body {
 
 h1 {
     text-align: center;
+    color: #4a0072; /* Morado oscuro */
 }
 
 .form-group {
@@ -25,6 +26,7 @@ h1 {
 label {
     display: block;
     font-weight: bold;
+    color: #4a0072; /* Morado oscuro */
 }
 
 input[type="text"] {
@@ -36,7 +38,7 @@ input[type="text"] {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #ba68c8; /* Morado claro */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -46,7 +48,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #9c27b0; /* Morado intermedio */
 }
 
 .modal {
@@ -58,7 +60,7 @@ button:hover {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo negro semi-transparente */
 }
 
 .modal-content {
@@ -70,7 +72,7 @@ button:hover {
 }
 
 .close {
-    color: #aaa;
+    color: #4a0072; /* Morado oscuro */
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -78,7 +80,7 @@ button:hover {
 
 .close:hover,
 .close:focus {
-    color: black;
+    color: #000; /* Negro */
     text-decoration: none;
     cursor: pointer;
 }
@@ -96,7 +98,8 @@ table th, table td {
 }
 
 table th {
-    background-color: #f2f2f2;
+    background-color: #e1bee7; /* Morado muy claro */
+    color: #4a0072; /* Morado oscuro */
 }
 
 /* Estilos para el contenedor */
@@ -110,6 +113,7 @@ table th {
 
 h1 {
     text-align: center;
+    color: #4a0072; /* Morado oscuro */
 }
 
 .separator {
